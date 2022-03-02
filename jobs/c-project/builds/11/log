@@ -1,0 +1,23 @@
+Started by user [8mha:////4O4xMCHJ240r1jJw2k82LPdJTRXQ1rJabINywaGztKywAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZB/dLi1CL9xKSMzOKM1GxDI2MALVpML8YAAAA=[0mAbhishek
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Abhishek8884711/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/Abhishek8884711/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Abhishek8884711/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ae7b00e633c8ac8aebcb5d0f86ef72e781a7b4e9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ae7b00e633c8ac8aebcb5d0f86ef72e781a7b4e9 # timeout=10
+Commit message: "added"
+ > git rev-list --no-walk ae7b00e633c8ac8aebcb5d0f86ef72e781a7b4e9 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins8398573548448233645.sh
++ cd /var/lib/jenkins/wokspace/c-project
+/tmp/jenkins8398573548448233645.sh: line 2: cd: /var/lib/jenkins/wokspace/c-project: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
